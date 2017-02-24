@@ -1,0 +1,28 @@
+                                                                           Assignment 2.5
+
+
+1)Cluster:
+               The set of loosely coupled or tightly coupled systems  that are connected and work together as a single system is called as a cluster.
+
+Hadoop Cluster:
+               1. Hadoop cluster is a special type of computational cluster designed for storing and analyzing vast amount of unstructured data in a distributed                     computing environment. These clusters run on low cost commodity computers.
+               2.Large Hadoop Clusters are arranged in several racks. Network traffic between different nodes in the same rack is much more desirable than                   network traffic across the racks. 
+
+
+2)components of hadoop 1.x:
+A)The major components of Hadoop 1.x are:
+ 1.HDFS
+ 2.MapReduce
+ HDFS:It is a hadoop distributed file system used for storing very large files.This component is again divided into two .They are:
+1.Name Node:
+                       Name Node is palced in master Node.It is used to store the meta data  about the data nodes which are also calles as the slave nodes.
+2.Data Node:
+                    Data Nodes are places in Slave Nodes. It is used to store our Application Actual Data. It stores data in Data Slots of size 64MB by default.
+
+b.MapReduce:
+               The mapreduce is used for processing the large data .MapReduce component is again divided into two sub-components:
+
+1.Job Tracker:
+                    Job Tracker is used to assign MapReduce Tasks to Task Trackers in the Cluster of Nodes. 
+2.Task Tracker:
+Task Tracker executes the Tasks which are assigned by Job Tracker and sends the status of those tasks to Job Tracker.
